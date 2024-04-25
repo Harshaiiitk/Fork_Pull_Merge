@@ -90,3 +90,14 @@ foreach($capitals as $key=>$values){
 
 $capital = $capitals[$_GET["capital"]] . "<br>";
 echo "The capital is {$capital} ";
+
+$username = null;
+
+if (isset($username))
+{
+ echo"initialized";
+}
+else{
+ echo"not initialized";
+}
+?>
