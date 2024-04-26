@@ -1,13 +1,13 @@
 <?php
- $name = "Harsha";
- $food = "Biryani";
+ $name = "Venkata Harsha";
+ $food = "Chicken Biryani";
  $email = "venkataharshapedada9@gmail.com";
 
  echo"Hi {$name} <br>";
- echo"Your favourite food is {$food}  <br>";
+ echo"Your favorite food is {$food}  <br>";
  echo"Your email id is {$email} <br>";
- echo"You like php <br>";
- echo"It's really great";
+ echo"You Don't like php <br>";
+ echo"It's not that really great";
 
 ?>
 <!DOCTYPE html>
@@ -32,6 +32,7 @@
 echo"{$_POST["username"]} <br>";
 echo"{$_POST["password"]} <br>";
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
